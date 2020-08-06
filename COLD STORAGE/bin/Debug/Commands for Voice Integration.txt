@@ -1,0 +1,91 @@
+*****************************************************COLD STORAGE SOFTWARE*******************************************************************************************
+*********************************************************************************************************************************************************************
+*********************************************************************************************************************************************************************
+*********************************************************************************************************************************************************************
+*********************************************************************************************************************************************************************
+*********************************************************************************************************************************************************************
+*********************************************************************************************************************************************************************
+*********************************************************************************************************************************************************************
+*********************************************************************************************************************************************************************
+*********************************************************************************************************************************************************************
+					This File is To understand what command to execute while using the software.
+
+
+
+						FOllowing are the commands while executing the software.
+
+		1.Startup page Commands:
+					1.Enter- To proceed to next page.	
+
+
+		2.Login Page Commands:
+					1.ENter-For login button.
+					2.Close-For closing the software.
+					3.forget-If users forget his software password.
+					4.Hi-To integrate with the software.
+					5.Who are you- To speak with software.
+	
+		3.Menu page Commands:
+					1.customer: To open the customer page.
+					2.inward- To open the inward page.
+					3.outward-TO open the outward page.
+					4.Billmaster-To open the Billmaster page.
+					5.crystalreports- To open the overall reports page.
+					6.about-To open the information of the developers.
+					7.voicehelp- To open the voice demo of the software.
+					8.gmaillogin- To open the gmail login page.
+					9.Hi-To integrate with the software.
+					10.Who are you- To speak with software.
+		
+	
+		4.Customer entry page:
+					1.go-to-menu- For going to Menu page.
+					2.Logout- For logging out from the software.
+					3.save-record-To Save the page.
+					4.clear- TO clear the details from the page.
+					5.Hi-To integrate with the software.
+					6.Who are you- To speak with software.
+		
+	
+		4.Inward entry page:
+					1.go-to-menu- For going to Menu page.
+					2.Logout- For logging out from the software.
+					3.save-record-To Save the page.
+					4.clear- TO clear the details from the page.
+					5.Hi-To integrate with the software.
+					6.Who are you- To speak with software.
+				
+		
+		5.Outward entry page:
+					1.go-to-menu- For going to Menu page.
+					2.Logout- For logging out from the software.
+					3.save-record-To Save the page.
+					4.clear- TO clear the details from the page.
+					5.Hi-To integrate with the software.
+					6.Who are you- To speak with software.
+		
+		6.BillMaster page:
+					1.go-to-menu- For going to Menu page.
+					2.Logout- For logging out from the software.
+					3.save-record-To Save the page.
+					4.clear- TO clear the details from the page.
+					5.Hi-To integrate with the software.
+					6.Who are you- To speak with software.
+					7.printbill- To print the bill of the customer.
+
+		7.Overall Report Page:
+					1.customerreport- To open the customer report.
+					2.inwardreport - TO open the inward report.
+					3.outwardreport- TO open the outward report.
+					4.go-to menu  - TO open the menu page.
+					5.logout- TO open the login page.
+
+		8.about page:
+					1.close - To close the page.
+	
+		
+		9.Gmail login page:
+					1.proceed- To procced to the page.
+		
+
+THis is the ENd of the Software......

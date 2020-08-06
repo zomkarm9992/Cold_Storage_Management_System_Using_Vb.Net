@@ -1,0 +1,304 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+COLDSTORAGE
+</name>
+</assembly>
+<members>
+<member name="T:COLD_STORAGE.InwardtableDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:COLD_STORAGE.Bill.BillMasterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:COLD_STORAGE.Bill.outwardTableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:COLD_STORAGE.Bill.BillMasterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:COLD_STORAGE.Bill.outwardTableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:COLD_STORAGE.Bill.BillMasterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:COLD_STORAGE.Bill.outwardTableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:COLD_STORAGE.Bill">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:COLD_STORAGE.BillTableAdapters.BillMasterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:COLD_STORAGE.BillTableAdapters.outwardTableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:COLD_STORAGE.BillTableAdapters.TableAdapterManager.UpdateUpdatedRows(COLD_STORAGE.Bill,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:COLD_STORAGE.BillTableAdapters.TableAdapterManager.UpdateInsertedRows(COLD_STORAGE.Bill,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:COLD_STORAGE.BillTableAdapters.TableAdapterManager.UpdateDeletedRows(COLD_STORAGE.Bill,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:COLD_STORAGE.BillTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:COLD_STORAGE.BillTableAdapters.TableAdapterManager.UpdateAll(COLD_STORAGE.Bill)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:COLD_STORAGE.BillTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:COLD_STORAGE.BillTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:COLD_STORAGE.BillTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:COLD_STORAGE.InwardReport.inwTableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:COLD_STORAGE.InwardReport.inwTableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:COLD_STORAGE.InwardReport.inwTableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:COLD_STORAGE.InwardReport">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:COLD_STORAGE.InwardReportTableAdapters.inwTableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:COLD_STORAGE.InwardReportTableAdapters.TableAdapterManager.UpdateUpdatedRows(COLD_STORAGE.InwardReport,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:COLD_STORAGE.InwardReportTableAdapters.TableAdapterManager.UpdateInsertedRows(COLD_STORAGE.InwardReport,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:COLD_STORAGE.InwardReportTableAdapters.TableAdapterManager.UpdateDeletedRows(COLD_STORAGE.InwardReport,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:COLD_STORAGE.InwardReportTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:COLD_STORAGE.InwardReportTableAdapters.TableAdapterManager.UpdateAll(COLD_STORAGE.InwardReport)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:COLD_STORAGE.InwardReportTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:COLD_STORAGE.InwardReportTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:COLD_STORAGE.InwardReportTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:COLD_STORAGE.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:COLD_STORAGE.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:COLD_STORAGE.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:COLD_STORAGE.customers.customerTableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:COLD_STORAGE.customers.customerTableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:COLD_STORAGE.customers.customerTableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:COLD_STORAGE.customers">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:COLD_STORAGE.customersTableAdapters.customerTableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:COLD_STORAGE.customersTableAdapters.TableAdapterManager.UpdateUpdatedRows(COLD_STORAGE.customers,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:COLD_STORAGE.customersTableAdapters.TableAdapterManager.UpdateInsertedRows(COLD_STORAGE.customers,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:COLD_STORAGE.customersTableAdapters.TableAdapterManager.UpdateDeletedRows(COLD_STORAGE.customers,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:COLD_STORAGE.customersTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:COLD_STORAGE.customersTableAdapters.TableAdapterManager.UpdateAll(COLD_STORAGE.customers)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:COLD_STORAGE.customersTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:COLD_STORAGE.customersTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:COLD_STORAGE.customersTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:COLD_STORAGE.Outwardsearch.outwardTableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:COLD_STORAGE.Outwardsearch.outwardTableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:COLD_STORAGE.Outwardsearch.outwardTableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:COLD_STORAGE.Outwardsearch">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:COLD_STORAGE.OutwardsearchTableAdapters.outwardTableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:COLD_STORAGE.OutwardsearchTableAdapters.TableAdapterManager.UpdateUpdatedRows(COLD_STORAGE.Outwardsearch,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:COLD_STORAGE.OutwardsearchTableAdapters.TableAdapterManager.UpdateInsertedRows(COLD_STORAGE.Outwardsearch,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:COLD_STORAGE.OutwardsearchTableAdapters.TableAdapterManager.UpdateDeletedRows(COLD_STORAGE.Outwardsearch,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:COLD_STORAGE.OutwardsearchTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:COLD_STORAGE.OutwardsearchTableAdapters.TableAdapterManager.UpdateAll(COLD_STORAGE.Outwardsearch)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:COLD_STORAGE.OutwardsearchTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:COLD_STORAGE.OutwardsearchTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:COLD_STORAGE.OutwardsearchTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:COLD_STORAGE.Inwardsearch.inwTableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:COLD_STORAGE.Inwardsearch.inwTableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:COLD_STORAGE.Inwardsearch.inwTableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:COLD_STORAGE.Inwardsearch">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:COLD_STORAGE.InwardsearchTableAdapters.inwTableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:COLD_STORAGE.InwardsearchTableAdapters.TableAdapterManager.UpdateUpdatedRows(COLD_STORAGE.Inwardsearch,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:COLD_STORAGE.InwardsearchTableAdapters.TableAdapterManager.UpdateInsertedRows(COLD_STORAGE.Inwardsearch,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:COLD_STORAGE.InwardsearchTableAdapters.TableAdapterManager.UpdateDeletedRows(COLD_STORAGE.Inwardsearch,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:COLD_STORAGE.InwardsearchTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:COLD_STORAGE.InwardsearchTableAdapters.TableAdapterManager.UpdateAll(COLD_STORAGE.Inwardsearch)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:COLD_STORAGE.InwardsearchTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:COLD_STORAGE.InwardsearchTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:COLD_STORAGE.InwardsearchTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
